@@ -1,3 +1,8 @@
 #Ignore these types of file.
+*.jpg
+*.png
 *.onnx
+*.txt
+
+#Ignore transitional build directories.
 minimal_ort_cpp_example/build/
