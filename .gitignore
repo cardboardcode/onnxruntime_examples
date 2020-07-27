@@ -1,2 +1,3 @@
 #Ignore these types of file.
 *.onnx
+minimal_ort_cpp_example/build/
