@@ -6,3 +6,8 @@
 
 #Ignore transitional build directories.
 minimal_ort_cpp_example/build/
+
+#Include specific images.
+yolov3_ort_py_example/*
+!yolov3_ort_py_example/input.jpg
+!yolov3_ort_py_example/yolov3_py_result.jpg
