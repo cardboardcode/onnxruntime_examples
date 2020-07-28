@@ -2,7 +2,13 @@ import numpy as np
 from PIL import Image, ImageDraw
 import onnxruntime
 import datetime
+import subprocess
 import cv2
+import os
+
+# Check if model is downloaded.
+if not os.path.exists('yolov3-10.onnx'):
+    subprocess.call("wget https://github.com/onnx/models/raw/master/vision/object_detection_segmentation/yolov3/model/yolov3-10.onnx", shell=True)
 
 # this function is from yolo3.utils.letterbox_image
 def letterbox_image(image, size):
