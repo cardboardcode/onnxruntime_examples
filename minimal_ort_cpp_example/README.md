@@ -1,5 +1,5 @@
 ## What Is This?
-This example to build the `CXX_Api_Sample.cpp` that can be found on the official [onnxruntime](https://github.com/microsoft/onnxruntime/blob/master/csharp/test/Microsoft.ML.OnnxRuntime.EndToEndTests.Capi/CXX_Api_Sample.cpp) repository in the most minimalistic manner possible.
+This example shows you how to build the `CXX_Api_Sample.cpp` that can be found on the official [onnxruntime](https://github.com/microsoft/onnxruntime/blob/master/csharp/test/Microsoft.ML.OnnxRuntime.EndToEndTests.Capi/CXX_Api_Sample.cpp) repository in the most minimalistic manner possible.
 
 ## Setup
 Follow the instructions below to start building the example.
@@ -12,7 +12,7 @@ make
 ```
 
 ## Verify
-It is is working if this is the output it produces.
+You know it is working if this produces the following output in the terminal.
 ```txt
 WARNING: Since openmp is enabled in this build, this API cannot be used to configure intra op num threads. Please use the openmp environment variables to control the number of threads.
 Using Onnxruntime C++ API
