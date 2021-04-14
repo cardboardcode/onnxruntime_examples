@@ -16,4 +16,4 @@ python infer.py
 ## Verify
 You know it is working if you get the following output image after running `python infer.py` under **Run**.
 
-![](./result.png)
+![](./result.jpg)
