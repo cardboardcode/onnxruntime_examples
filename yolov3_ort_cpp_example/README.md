@@ -43,3 +43,6 @@ Done!
 It should also produce the following `output.jpg` image file as shown below:
 
 ![](output.jpg)
+
+## Acknowledgement
+This code example is referenced from [hoaquochan/Yolo_v3](https://github.com/hoaquocphan/Yolo_v3).
