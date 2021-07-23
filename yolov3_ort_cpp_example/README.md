@@ -1,5 +1,5 @@
 ## What Is This?
-This example shows you how to build a working `cpp`-based example that uses onnxruntime to run `yolov3-10.onnx`
+This example shows you how to build a working **CPP-based** example that uses **onnxruntime** to run `yolov3-10.onnx` model file.
 
 ## Setup
 Follow the instructions below to start building the example.
@@ -41,4 +41,5 @@ Done!
 ```
 
 It should also produce the following `output.jpg` image file as shown below:
+
 ![](output.jpg)
