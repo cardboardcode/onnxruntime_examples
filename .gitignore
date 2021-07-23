@@ -6,6 +6,7 @@
 
 #Ignore transitional build directories.
 minimal_ort_cpp_example/build/
+yolov3_ort_cpp_example/build/
 
 #Include specific images.
 yolov3_ort_py_example/*
@@ -15,3 +16,7 @@ yolov3_ort_py_example/*
 !yolov4_ort_py_example/coco_classes.txt
 !yolov4_ort_py_example/yolov4_anchors.txt
 !yolov4_ort_py_example/input.jpg
+!yolov3_ort_cpp_example/CMakeLists.txt
+!yolov3_ort_cpp_example/coco_classes.txt
+!yolov3_ort_cpp_example/input.jpg
+!yolov3_ort_cpp_example/output.jpg

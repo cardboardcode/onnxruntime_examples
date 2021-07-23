@@ -45,7 +45,7 @@ using namespace std;
 std::map<int,std::string> label_file_map;
 char inference_mode = DETECTION;
 int model=0;
-char* save_filename = "output.jpg";
+char* save_filename = "../output.jpg";
 const char* input_file = "../input.jpg";
 const char* mat_out = "mat_out.jpg";
 
@@ -132,8 +132,8 @@ int main(int argc, char* argv[])
     //Config : inference mode
     inference_mode = DETECTION;
     //Config : model
-    std::string model_name = "yolov3.onnx";
-    std::string model_path= "../yolov3.onnx";
+    std::string model_name = "yolov3-10.onnx";
+    std::string model_path= "../yolov3-10.onnx";
 
     printf("Start Loading Model %s\n", model_name.c_str());
 
